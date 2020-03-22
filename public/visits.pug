@@ -1,0 +1,11 @@
+ul
+  each item in array 
+    li 
+      span= item.link
+      ul
+      each visit in item.visits
+        li
+          span= visit.ip
+          br
+          span= visit.time
+      

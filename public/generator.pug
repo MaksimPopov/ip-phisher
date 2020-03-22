@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    style
+      include index.css
+  body
+    main.flex-column
+      h1 Generate fake URL
+      div.form.flex-column
+        div.field.flex-column
+          label(for="key") Key:
+          input(type='text' id='key' name='key' placeholder='exampleKey' required)
+        div.field.flex-column
+          label(for="url") Redirect URL:
+          input(type='url' id='url' name='url' placeholder='http://example.com' required)
+        div.field.flex-column
+          button(id='submit') Create
+      div.help
+        a(href="#") help
+
+    script.
+      const submitBtn = document.getElementById('submit');
+      submitBtn.addEventListener('click', () => {
+        console.log('clicked');
+      });

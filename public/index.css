@@ -1,0 +1,27 @@
+.flex,
+.flex-column {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+main {
+  align-items: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.form > * {
+  margin: 5px 0;
+}
+
+.field {
+  display: flex;
+}
+
+.field > input,
+#submit {
+  padding: 5px 10px;
+}

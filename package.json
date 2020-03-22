@@ -1,0 +1,21 @@
+{
+  "name": "ip-phisher",
+  "version": "1.0.0",
+  "description": "simple ip stealer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maksim Popov",
+  "license": "ISC",
+  "dependencies": {
+    "bitly": "^7.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
